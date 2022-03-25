@@ -29,7 +29,7 @@ function Gallery() {
           <button className="categories__learn-more">Learn More</button>
         </div>
         <div className="categories__right">
-          <img src={headerImage}></img>
+          <img src={headerImage} alt="People at desk"></img>
         </div>
       </section>
       <section className="categories__banner">
