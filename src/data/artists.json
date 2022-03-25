@@ -1,0 +1,79 @@
+[
+    {
+        "id": 0,
+        "name": "Megan Nichols",
+        "title": "Contemporary Art",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "avatar": 1,
+        "artwork": [
+            {
+                "id": 0,
+                "name": "Artwork 1",
+                "imagePath": "../assets/images"
+            },
+            {
+                "id": 1,
+                "name": "Artwork 2",
+                "imagePath": "../assets/images"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Sarah Connor",
+        "title": "Contemporary Art",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "avatar": 2,
+        "artwork": [
+            {
+                "id": 2,
+                "name": "Artwork 1",
+                "imagePath": "../assets/images"
+            },
+            {
+                "id": 3,
+                "name": "Artwork 2",
+                "imagePath": "../assets/images"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Mackenzie Davis",
+        "title": "Graphic Design",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "avatar": 3,
+        "artwork": [
+            {
+                "id": 4,
+                "name": "Artwork 1",
+                "imagePath": "../assets/images"
+            },
+            {
+                "id": 5,
+                "name": "Artwork 2",
+                "imagePath": "../assets/images"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "David Scott",
+        "title": "Illustrations (NFTs)",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "avatar": 4,
+        "artwork": [
+            {
+                "id": 6,
+                "name": "Artwork 1",
+                "imagePath": "../assets/images"
+            },
+            {
+                "id": 7,
+                "name": "Artwork 2",
+                "imagePath": "../assets/images"
+            }
+        ]
+    }
+    
+]
