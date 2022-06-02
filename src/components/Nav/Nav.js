@@ -14,11 +14,11 @@ function Nav() {
           <li className="nav__list-item"><a href='/'>Home</a></li>
           <li className="nav__list-item">Find a Parter</li>
           <li className="nav__list-item">Contact</li>
+      </ul>
         <div className="nav__profile">
           <p className="nav__avatar">AB</p>
           <h3 className="nav__user-name">Ashley Brooks</h3>
         </div>
-      </ul>
     </div>
   );
 }
