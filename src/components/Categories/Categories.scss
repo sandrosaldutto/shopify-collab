@@ -8,23 +8,20 @@
 
   &__hero {
     display: flex;
-    padding-top: 12.5em;
+    padding-top: 14.5em;
     justify-content: space-between;
     align-items: center;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    flex-direction: column;
   }
 
   &__banner-text {
-    font-size: 1.875rem;
-    width: 80%;
-    margin: 0;
+    font-size: 1rem;
+    margin: .25rem 0;
   }
 
   &__banner-text-bottom {
-    font-size: 1.875rem;
-    width: 80%;
-    margin-top: 2rem;
+    font-size: 1rem;
+    margin: .25rem 0;
 
     &--bold {
       font-weight: 700;
@@ -33,23 +30,21 @@
 
   &__banner {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 20rem;
-    background-color: $shopify-light-green;
-    padding: 0 7.5rem;
-    margin-top: 6rem;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 1rem 1rem;
   }
 
   &__learn-more {
-    width: 169px;
-    height: 45px;
-    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 50px;
     border: none;
     background-color: $shopify-light-green;
-    font-size: 1.25rem;
+    font-size: .9rem;
     padding: 0.25rem;
-    margin-top: 1rem;
+    margin: .5rem 0;
 
     &:hover {
       background-color: $shopify-dark-green;
@@ -59,13 +54,13 @@
   }
 
   &__hero-text {
-    font-size: 1.875rem;
-    margin: 1rem 0;
+    font-size: .85rem;
+    margin: .25rem 0;
   }
 
   &__hero-text-bold {
-    font-size: 2.5rem;
-    margin: 1rem 0;
+    font-size: .85rem;
+    margin: .25rem 0;
 
     &--green {
       color: $shopify-dark-green;
@@ -73,7 +68,13 @@
   }
 
   &__left {
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0 .5rem;
+    text-align: center;
   }
 
   &__header {
@@ -150,5 +151,15 @@
     color: #424242;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__hero-img {
+    width: 80%;
   }
 }

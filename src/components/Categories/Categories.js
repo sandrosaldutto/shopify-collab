@@ -15,6 +15,9 @@ function Gallery() {
   return (
     <div className="categories">
       <section className="categories__hero">
+        <div className="categories__top">
+          <img class="categories__hero-img" src={headerImage} alt="People at desk"></img>
+        </div>
         <div className="categories__left">
           <p className="categories__hero-text">
             Have a product to sell but aren't sure how?
@@ -27,9 +30,6 @@ function Gallery() {
             with Shopify
           </p>
           <button className="categories__learn-more">Learn More</button>
-        </div>
-        <div className="categories__right">
-          <img src={headerImage} alt="People at desk"></img>
         </div>
       </section>
       <section className="categories__banner">
