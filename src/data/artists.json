@@ -26,12 +26,12 @@
         "avatar": 2,
         "artwork": [
             {
-                "id": 2,
+                "id": 4,
                 "name": "Artwork 1",
                 "imagePath": "../assets/images"
             },
             {
-                "id": 3,
+                "id": 7,
                 "name": "Artwork 2",
                 "imagePath": "../assets/images"
             }

@@ -65,25 +65,27 @@ function Collaborators() {
                 </p>
                 <button className="collaborators__button">Collaborate</button>
               </div>
-              <div className="collaborators__section collaborators__section--left">
-                <img
-                  src={artworks[artist.artwork[0].id]}
-                  className="collaborators__artwork collaborators__artwork--left"
-                  alt="artwork logo"
-                />
-                <p className="collaborators__avatar-description">
-                  {artist.artwork[0].name}
-                </p>
-              </div>
-              <div className="collaborators__section">
-                <img
-                  src={artworks[artist.artwork[1].id]}
-                  className="collaborators__artwork"
-                  alt="artwork logo"
-                />
-                <p className="collaborators__avatar-description">
-                  {artist.artwork[1].name}
-                </p>
+              <div className="collaborators__artwork-container">
+                <div className="collaborators__section collaborators__section--left">
+                  <img
+                    src={artworks[artist.artwork[0].id]}
+                    className="collaborators__artwork collaborators__artwork--left"
+                    alt="artwork logo"
+                  />
+                  <p className="collaborators__avatar-description collaborators__avatar-description--center">
+                    {artist.artwork[0].name}
+                  </p>
+                </div>
+                <div className="collaborators__section">
+                  <img
+                    src={artworks[artist.artwork[1].id]}
+                    className="collaborators__artwork"
+                    alt="artwork logo"
+                  />
+                  <p className="collaborators__avatar-description collaborators__avatar-description--center">
+                    {artist.artwork[1].name}
+                  </p>
+                </div>
               </div>
             </div>
           );
