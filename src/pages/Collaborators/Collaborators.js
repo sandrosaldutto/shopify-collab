@@ -63,7 +63,7 @@ function Collaborators() {
                 <p className="collaborators__avatar-description">
                   {artist.description}
                 </p>
-                <button className="collaborators__button">Collaborate</button>
+                <button className="collaborators__button"><a className="collaborators__link" href="/">Collaborate</a></button>
               </div>
               <div className="collaborators__artwork-container">
                 <div className="collaborators__section collaborators__section--left">
@@ -92,7 +92,7 @@ function Collaborators() {
         })}
       </div>
       <div className="button-container">
-        <button className="button-container__button">View More</button>
+        <a href="/" className="button-container__button">View More</a>
       </div>
     </section>
   );
