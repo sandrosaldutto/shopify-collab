@@ -1,5 +1,7 @@
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
 
 .categories {
   display: flex;
@@ -12,16 +14,37 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
+    @include tablet {
+      padding-top: 6rem;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      margin: 2rem 0;
+    }
+
+    @include desktop {
+      margin-bottom: 3rem;
+      justify-content: center;
+    }
   }
 
   &__banner-text {
     font-size: 1rem;
     margin: .25rem 0;
+
+    @include tablet {
+      font-size: 1.1rem
+    }
   }
 
   &__banner-text-bottom {
     font-size: 1rem;
     margin: .25rem 0;
+    align-items: center;
+
+    @include tablet {
+      line-height: 1.3;
+    }
 
     &--bold {
       font-weight: 700;
@@ -33,7 +56,17 @@
     justify-content: center;
     flex-direction: column;
     background-color: whitesmoke;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
+    align-items: center;
+    text-align: center;
+
+    @include tablet {
+      padding: 1rem 8rem;
+    }
+
+    @include desktop {
+      padding: 2rem 8rem;
+    }
   }
 
   &__learn-more {
@@ -46,6 +79,12 @@
     padding: 0.25rem;
     margin: .5rem 0;
 
+    @include tablet {
+      width: 8rem;
+      padding-bottom: .3rem;
+      margin: 1rem 0;
+    }
+
     &:hover {
       background-color: $shopify-dark-green;
       color: $main-background;
@@ -56,11 +95,27 @@
   &__hero-text {
     font-size: .85rem;
     margin: .25rem 0;
+
+    @include tablet {
+      font-size: 1rem;
+    }
+
+    @include desktop {
+      font-size: 1.5rem;
+    }
   }
 
   &__hero-text-bold {
     font-size: .85rem;
     margin: .25rem 0;
+
+    @include tablet {
+      font-size: 1rem;
+    }
+
+    @include desktop {
+      font-size: 1.5rem;
+    }
 
     &--green {
       color: $shopify-dark-green;
@@ -94,12 +149,10 @@
   }
 
   &__gallery {
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
   }
 
   &__link {
@@ -149,9 +202,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include tablet {
+      width: 50%;
+    }
   }
 
   &__hero-img {
     width: 80%;
+
+    @include tablet {
+      width: 65%;
+    }
+
+    @include desktop {
+      width: 50%;
+    }
   }
 }
