@@ -11,9 +11,9 @@ function Nav() {
         </p>
       </div>
       <ul className="nav__navlist">
-          <li className="nav__list-item"><a href='/'>Home</a></li>
-          <li className="nav__list-item">Find a Parter</li>
-          <li className="nav__list-item">Contact</li>
+          <li className="nav__list-item"><a className="nav__link-text" href='/'>Home</a></li>
+          <li className="nav__list-item"><a className="nav__link-text" href='/'>Find a Parter</a></li>
+          <li className="nav__list-item"><a className="nav__link-text" href='/'>Contact</a></li>
       </ul>
         <div className="nav__profile">
           <p className="nav__avatar">AB</p>

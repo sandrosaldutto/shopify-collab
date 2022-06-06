@@ -1,4 +1,4 @@
-@use "../../styles/partials/colors" as c;
+@use "../../styles/partials/colors" as *;
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
@@ -125,8 +125,13 @@
     font-size: 12px;
     padding: 0.6rem 1rem;
     font-weight: 600;
-    background-color: c.$shopify-dark-green;
+    background-color: $shopify-dark-green;
     margin-top: 1.5rem;
+
+    &:hover {
+      background-color: $shopify-light-green;
+      cursor: pointer;
+    }
 
     @include tablet {
       margin-top: 1rem;
@@ -169,8 +174,13 @@
     font-size: 12px;
     padding: 0.6rem 1.5em;
     font-weight: 600;
-    background-color: c.$shopify-dark-green;
+    background-color: $shopify-dark-green;
     margin-top: 1.5rem;
     margin-bottom: 4rem;
+
+    &:hover {
+      background-color: $shopify-light-green;
+      cursor: pointer;
+    }
   }
 }
